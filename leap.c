@@ -33,6 +33,11 @@ int main(void) {
         }
     }
 
+    int array[4] = {1, 2, 3, 4};
+    for (i = 0; i < 4; i++) {
+        printf("%d\n", array[i]);
+    }
+
     free(years);
 
     return 0;
